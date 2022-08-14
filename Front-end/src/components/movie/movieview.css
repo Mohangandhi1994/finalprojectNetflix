@@ -1,0 +1,43 @@
+.center{
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: bottom 0;;
+    width: 20%;
+}
+.Btn-likes
+{
+    background-color: #199319; 
+    color: white; 
+    margin-top: 0rem;
+    padding: 10px 20px;
+    margin: 25px;
+    
+}
+.Btn-watch
+{
+    background: red;
+    color: rgb(240, 240, 245);
+    overflow: hidden;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    font-weight: 50;
+    margin-bottom: 5rem;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+  
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
